@@ -1,0 +1,477 @@
+    * {
+        margin: 0;
+        /* mergem */
+        padding: 0;
+        /* Espaçamento interno */
+        font-size: 100%;
+        /* tamanho da fonte */
+        font-family: 'Times New Roman', Times, serif;
+        /* fonte dos textos */
+        font-weight: normal;
+        /* largura das letras */
+        box-sizing: border-box;
+        /* tamanho da caixa */
+        border: none;
+        /* borda */
+        outline: none;
+        /* linha de fundo */
+        background: none;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    /* CABEÇALHO */
+    
+    .cabecalho {
+        width: 100%;
+        float: left;
+        padding: 50px;
+        background-image: url(../Imagens/spsimble.jpg);
+    }
+    
+    .cabecalho form {
+        width: 30%;
+        float: right;
+        padding: 25px;
+    }
+    
+    .cabecalho input[type="text"] {
+        background-color: #ccc;
+        width: 55%;
+        float: left;
+        padding: 10px;
+        border-radius: 10px 0 0 10px;
+    }
+    
+    .cabecalho button {
+        width: 45%;
+        float: left;
+        padding: 10px;
+        border-radius: 0 10px 10px 0;
+        cursor: pointer;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.719), red);
+    }
+    /* MENU */
+    
+    .menu {
+        width: 100%;
+        float: right;
+        background-color: rgb(187, 35, 35);
+        padding: 18px 8%;
+    }
+    
+    .menu li {
+        font-size: 1.3em;
+        float: left;
+    }
+    
+    .menu li a {
+        color: black;
+        margin-right: 25px;
+    }
+    
+    .menu li a:hover {
+        color: rgb(26, 221, 19);
+        font-size: 1.1em;
+    }
+    /* PRINCIPAL */
+    
+    section h1 {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 1.8em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    hr {
+        width: 100%;
+        color: red;
+        border: 5px dotted;
+    }
+    
+    .principal {
+        width: 100%;
+        float: left;
+        padding: 16px 8%;
+    }
+    
+    #aparecida {
+        float: left;
+        padding: 0 20px 20px 0;
+    }
+    
+    #aparecida h2 {
+        margin-top: 25px;
+        font-size: 1.4em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: red;
+    }
+    
+    #aparecida img {
+        border: 8px double black;
+        height: 250px;
+        float: left;
+        border-radius: 6px;
+        margin: 0 15px 15px 0;
+    }
+    
+    #aparecida p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.1em;
+        color: black;
+    }
+    
+    #aparecida button {
+        cursor: pointer;
+        padding: 10px 24px;
+        border-radius: 6px;
+        border: 3px solid gray;
+        color: white;
+        background: linear-gradient(to bottom, red, black);
+    }
+    
+    #holambra h2 {
+        margin-top: 25px;
+        font-size: 1.4em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: red;
+    }
+    
+    #holambra img {
+        border: 8px double black;
+        height: 250px;
+        float: right;
+        border-radius: 6px;
+        margin: 15px 15px;
+    }
+    
+    #holambra p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.1em;
+        color: black;
+    }
+    
+    #holambra button {
+        cursor: pointer;
+        padding: 10px 24px;
+        border-radius: 6px;
+        border: 3px solid gray;
+        color: white;
+        background: linear-gradient(to bottom, red, black);
+    }
+    
+    #sao-roque h2 {
+        margin-top: 25px;
+        font-size: 1.4em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: red;
+    }
+    
+    #sao-roque img {
+        border: 8px double black;
+        height: 250px;
+        float: left;
+        border-radius: 6px;
+        margin: 15px 15px;
+    }
+    
+    #sao-roque p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.1em;
+        color: black;
+    }
+    
+    #sao-roque button {
+        float: right;
+        cursor: pointer;
+        padding: 10px 24px;
+        border-radius: 6px;
+        border: 3px solid gray;
+        color: white;
+        background: linear-gradient(to bottom, red, black);
+    }
+    
+    #campinas h2 {
+        margin-top: 25px;
+        font-size: 1.4em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: red;
+    }
+    
+    #campinas img {
+        border: 8px double black;
+        height: 250px;
+        float: right;
+        border-radius: 6px;
+        margin: 15px 15px;
+    }
+    
+    #campinas p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.1em;
+        color: black;
+    }
+    
+    #campinas button {
+        cursor: pointer;
+        padding: 10px 24px;
+        border-radius: 6px;
+        border: 3px solid gray;
+        color: white;
+        background: linear-gradient(to bottom, red, black);
+    }
+    
+    #atibaia h2 {
+        margin-top: 25px;
+        font-size: 1.4em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: red;
+    }
+    
+    #atibaia img {
+        border: 8px double black;
+        height: 250px;
+        float: left;
+        border-radius: 6px;
+        margin: 15px 15px;
+    }
+    
+    #atibaia p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.1em;
+        color: black;
+    }
+    
+    #atibaia button {
+        cursor: pointer;
+        padding: 10px 24px;
+        border-radius: 6px;
+        border: 3px solid gray;
+        color: white;
+        background: linear-gradient(to bottom, red, black);
+    }
+    
+    #campos-do-jordao h2 {
+        margin-top: 25px;
+        font-size: 1.4em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: red;
+    }
+    
+    #campos-do-jordao img {
+        border: 8px double black;
+        height: 250px;
+        float: right;
+        border-radius: 6px;
+        margin: 15px 15px;
+    }
+    
+    #campos-do-jordao p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.1em;
+        color: black;
+    }
+    
+    #campos-do-jordao button {
+        cursor: pointer;
+        padding: 10px 24px;
+        border-radius: 6px;
+        border: 3px solid gray;
+        color: white;
+        background: linear-gradient(to bottom, red, black);
+    }
+    
+    #itu h2 {
+        margin-top: 25px;
+        font-size: 1.4em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: red;
+    }
+    
+    #itu img {
+        border: 8px double black;
+        height: 250px;
+        float: left;
+        border-radius: 6px;
+        margin: 15px 15px;
+    }
+    
+    #itu p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.1em;
+        color: black;
+    }
+    
+    #itu button {
+        cursor: pointer;
+        padding: 10px 24px;
+        border-radius: 6px;
+        border: 3px solid gray;
+        color: white;
+        background: linear-gradient(to bottom, red, black);
+    }
+    
+    #boituva h2 {
+        margin-top: 25px;
+        font-size: 1.4em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: red;
+    }
+    
+    #boituva img {
+        border: 8px double black;
+        height: 250px;
+        float: right;
+        border-radius: 6px;
+        margin: 15px 15px;
+    }
+    
+    #boituva p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.1em;
+        color: black;
+    }
+    
+    #boituva button {
+        cursor: pointer;
+        padding: 10px 24px;
+        border-radius: 6px;
+        border: 3px solid gray;
+        color: white;
+        background: linear-gradient(to bottom, red, black);
+    }
+    
+    #guarulhos h2 {
+        margin-top: 25px;
+        font-size: 1.4em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: red;
+    }
+    
+    #guarulhos img {
+        border: 8px double black;
+        height: 250px;
+        float: left;
+        border-radius: 6px;
+        margin: 15px 15px;
+    }
+    
+    #guarulhos p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.1em;
+        color: black;
+    }
+    
+    #guarulhos button {
+        cursor: pointer;
+        padding: 10px 24px;
+        border-radius: 6px;
+        border: 3px solid gray;
+        color: white;
+        background: linear-gradient(to bottom, red, black);
+    }
+    
+    #santos h2 {
+        margin-top: 25px;
+        font-size: 1.4em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: red;
+    }
+    
+    #santos img {
+        border: 8px double black;
+        height: 300px;
+        float: right;
+        border-radius: 6px;
+        margin: 15px 15px;
+    }
+    
+    #santos p {
+        text-align: justify;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.1em;
+        color: black;
+    }
+    
+    #santos button {
+        cursor: pointer;
+        padding: 10px 24px;
+        border-radius: 6px;
+        border: 3px solid gray;
+        color: white;
+        background: linear-gradient(to bottom, red, black);
+    }
+    /* NEWSLETTER */
+    
+    .news-letter {
+        width: 100%;
+        float: left;
+        background-color: black;
+        padding: 30px 8%;
+    }
+    
+    .news-letter h3 {
+        font-size: 1.8em;
+        color: rgb(243, 242, 242);
+    }
+    
+    .news-letter p {
+        text-align: left;
+        font-size: 1.2em;
+        color: rgb(238, 234, 234);
+    }
+    
+    .news-letter form {
+        width: 100%;
+        float: left;
+        margin-top: 10px;
+    }
+    
+    .news-letter form input {
+        width: 40%;
+        margin-right: 1%;
+        padding: 15px 10px;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        color: #FFF;
+        background-color: initial;
+    }
+    
+    .news-letter button {
+        width: 17%;
+        background-color: #FFF;
+        padding: 15px 10px;
+        border-radius: 10px;
+        float: right;
+        cursor: pointer;
+    }
+    /* RODAPÉ */
+    
+    .rodape {
+        width: 100%;
+        float: left;
+        background-color: rgb(187, 35, 35);
+    }
+    
+    .rodape p {
+        margin-top: 10px;
+        color: rgb(233, 227, 227);
+        text-align: center;
+        font-size: 1.1em;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 5px;
+    }
