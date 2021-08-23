@@ -1,0 +1,41 @@
+#titulo {
+    color: blueviolet;
+    /* cor da fonte */
+    background-color: burlywood;
+    /* cor do fundo */
+    max-width: max-content;
+    /* reduzir o tamanho ao próprio conteudo */
+    padding: 10px;
+    /* espaçamento */
+    margin: auto;
+    /* margem automatica do lado esquerdo e direito
+  */
+    margin-bottom: 50px;
+    /* aplica um espaçamentona parte de baixo */
+    border: 10px double black;
+    /* tipos de borda: solid-> dotted -> dashed */
+    border-radius: 10px;
+}
+
+.imagem {
+    height: 500px;
+    /* altura */
+    display: block;
+    /* tipo do elemento */
+    margin: auto;
+    /* margem pra centralizar */
+    margin-top: 50px;
+    border: 10px double black;
+    border-radius: 10px
+}
+
+body {
+    background: linear-gradient( red, blue, purple);
+    /* background-size: contain; */
+    /* contain ->imagem nu tamanho da imagem de fundo*/
+    background-repeat: no-repeat;
+    /* repetição da imagem */
+    /* /* background-color: coral; */
+    height: 100vh;
+    /* botar o bood na tela toda, fazendo um complemento da tela*/
+}

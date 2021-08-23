@@ -1,0 +1,36 @@
+h2 {
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(2, 2, 78), #6D6D78);
+}
+
+p {
+    text-align: center;
+    color: cornsilk;
+}
+
+img {
+    border: 10px double black;
+}
+
+.fontes {
+    color: white;
+    text-align: left;
+    font-size: 13px;
+}
+
+
+/* cabeçalho */
+
+.cabecalho button {
+    cursor: pointer;
+    color: black;
+    background: linear-gradient(to bottom, #9292b8cb, rgb(77, 77, 240));
+    width: 15%;
+    float: left;
+    padding: 2px;
+    border-radius: 10px 10px;
+    margin-left: 20px;
+}

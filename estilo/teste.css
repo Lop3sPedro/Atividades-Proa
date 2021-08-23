@@ -1,0 +1,125 @@
+     /* RESET */
+     
+     * {
+         margin: 0;
+         /* margem */
+         padding: 0;
+         /* espaçamento interno */
+         font-size: 100%;
+         /* tamanho da fonte */
+         font-family: 'Open Sans', sans-serif;
+         /* tipo de fonte */
+         font-weight: normal;
+         /* largura da fonte */
+         box-sizing: border-box;
+         /* tamanho da caixa */
+         border: none;
+         /* borda */
+         outline: none;
+         /* linha de fundo */
+     }
+     
+     img {
+         max-width: 100%;
+     }
+     
+     ul {
+         list-style: none;
+     }
+     
+     a {
+         text-decoration: none;
+     }
+     
+     h2 {
+         font-size: 1.5em;
+         color: #333;
+     }
+     
+     p {
+         font-size: 1em;
+         color: #777;
+     }
+     /* CABEÇALHO */
+     
+     .cabecalho {
+         width: 100%;
+         float: left;
+         padding: 50px 8%;
+         background: linear-gradient(90deg, rgb(2, 2, 78), #6D6D78);
+     }
+     
+     .logo a {
+         width: 84px;
+         height: 97px;
+         float: left;
+         background-image: url(../imagem/logo.jpeg);
+         font-size: 0;
+     }
+     
+     .cabecalho form {
+         width: 30%;
+         float: right;
+     }
+     
+     .cabecalho input[type="text"] {
+         width: 85%;
+         float: left;
+         padding: 15px 10px;
+         border-radius: 10px 0 0 10px;
+         /* espaçamento respectivo sentido horário: cima; direita; baixo; esquerda */
+     }
+     
+     .cabecalho button {
+         width: 15%;
+         float: right;
+         padding: 15px 10px;
+         border-radius: 0 10px 10px 0;
+         cursor: pointer;
+         background-color: #0cae98;
+         color: #70940c;
+         background: linear-gradient(to bottom, #777, #afff);
+     }
+     
+     .menu {
+         width: 100%;
+         float: right;
+         background-color: black;
+         padding: 18px 8%;
+     }
+     
+     .menu li {
+         float: left;
+     }
+     
+     .menu a {
+         color: #9d9d9d;
+         margin-right: 25px;
+     }
+     
+     .menu li a:hover {
+         color: white;
+         font-size: 1.1em;
+     }
+     
+     h2 {
+         text-align: center;
+     }
+     
+     body {
+         background: linear-gradient(90deg, rgb(2, 2, 78), #6D6D78);
+     }
+     
+     p {
+         text-align: center;
+     }
+     
+     img {
+         border: 10px double black;
+     }
+     
+     .fontes {
+         color: white;
+         text-align: left;
+         font-size: 13px;
+     }
